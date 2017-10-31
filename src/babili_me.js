@@ -39,7 +39,7 @@
             type: "alive"
           }
         }
-      });
+      }).catch(angular.noop);
     };
 
     BabiliMe.prototype.fetchRooms = function (options) {
